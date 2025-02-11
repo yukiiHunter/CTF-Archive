@@ -1,0 +1,9 @@
+services:
+  ecb:
+    container_name: ecb
+    build: .
+    ports:
+      - "9090:9090"
+    restart: always
+    environment:
+      - FLAG=gataubangbjirzzz
